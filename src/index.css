@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#root {
+  height: 100vh;
+  background-image: url("https://i.imgur.com/cYp9Z2J.jpg");
+  text-align: center;
+}
+
+.quote-container {
+  height: 12em;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-radius: 25px;
+  width: 80%;
+  font-size: 1.3em;
+  padding: 3em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: lightgray;
+}
+
+.quote-container img {
+  display: none;
+}
+
+.quote-container h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.quote-container h2 {
+  color: gray;
+}
+
+.select-language {
+  height: 3em;
+  font-size: 0.9em;
+  margin-left: 1em;
+  text-align: center;
+}
+
+#btn-generate {
+  color: cornflowerblue;
+  border: 2px solid cornflowerblue;
+  background-color: white;
+  border-radius: 10px;
+  width: 12em;
+  height: 4em;
+  font-weight: bold;
+  font-size: 1em;
+  transition: 0.5s;
+  outline: none;
+}
+
+button:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.auto-mode {
+  color: cornflowerblue;
+  display: inline;
+  margin-left: 0.7em;
+  background-color: white;
+  padding: 0.6em;
+  border: 2px solid cornflowerblue;
+  border-radius: 10px;
+}
